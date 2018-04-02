@@ -11,22 +11,22 @@ import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.ResultMap;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
+import org.mybatis.spring.annotation.MapperScan;
 
 import com.quzhigang.model.CityModel;
 
-
+@MapperScan
 public interface CityMapper {
 	
-	String columns ="id,province_id,city_name,description";
+	String columns ="id,name,pid,first_letter,pinyin";
 	
-	String insert = "province_id,city_name,description";
+	String insert = "id,name,pid,first_letter,pinyin";
 	
-	String insertProperty = "#{provinceId},#{cityName},#{description}";
+	String insertProperty = "#{id},#{name},#{pid},#{firstLetter},#{pinyin}";
 	
-	String update = "province_id=#{provinceId},city_name=#{cityName},description=#{description}";
+	String update = "id=#{id},name=#{name},pid=#{pid},first_letter=#{first_letter},pinyin=#{pinyin}";
 	
 	@Insert("insert into city("+insert+") values ("+insertProperty+")")
-	@Options(useGeneratedKeys=true, keyProperty="id")
 	public long insert(CityModel CityModel);
 	
 	@Select("select "+columns+" from city where 1=1 and id= #{id}")

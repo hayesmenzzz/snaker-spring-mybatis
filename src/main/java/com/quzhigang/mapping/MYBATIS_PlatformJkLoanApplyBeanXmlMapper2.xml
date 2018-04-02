@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper  
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.quzhigang.mapper.PlatformJkLoanApplyMapper">
+	<resultMap type="com.quzhigang.model.PlatformJkLoanApplyBean" id="PlatformJkLoanApplyBeanMap">
+
+		<result property="id" column="id" />
+		<result property="apply_no" column="applyNo" />
+		<result property="task_id" column="taskId" />
+		<result property="process_order_id" column="processOrderId" />
+		<result property="run_state" column="runState" />
+		<result property="role_name" column="roleName" />
+		<result property="operate_user" column="operateUser" />
+		<result property="create_time" column="createTime" />
+		<result property="update_time" column="updateTime" />
+	</resultMap>
+</mapper>
+
+
+
+

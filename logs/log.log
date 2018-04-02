@@ -1,0 +1,42 @@
+2018-03-21 09:22:54,471 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 09:22:54,704 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 09:22:55,541 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 09:27:36,421 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 09:27:36,532 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 09:27:37,218 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 09:33:19,122 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 09:33:19,227 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 09:33:20,516 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 09:35:23,617 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 09:35:23,724 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 09:35:24,699 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 09:38:28,830 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 09:38:28,937 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 09:38:29,803 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 09:42:42,503 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 09:42:42,611 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 09:42:43,577 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 09:51:50,434 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 09:51:50,532 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 09:51:51,456 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 09:53:28,965 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 09:53:29,067 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 09:53:29,949 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 10:14:23,033 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 10:14:23,143 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 10:14:24,001 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 10:15:39,031 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 10:15:39,138 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 10:15:39,986 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 10:17:41,615 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 10:17:41,725 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 10:17:42,660 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 10:58:05,372 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 10:58:05,474 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 10:58:06,413 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 11:03:54,557 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 11:03:54,666 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 11:03:55,571 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-03-21 11:06:45,318 [main] ERROR [com.alibaba.druid.pool.DruidAbstractDataSource] - maxIdle is deprecated
+2018-03-21 11:06:45,424 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-03-21 11:06:46,368 [main] INFO  [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed

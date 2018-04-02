@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process displayName="借款申请流程" instanceUrl="/snaker/flow!all.action" name="loan">
+<start displayName="start1" layout="346,22,-1,-1" name="start1">
+<transition g="" name="transition1" offset="0,0" to="salesman_apply"/>
+</start>
+<task assignee="salesman_apply.operator" autoExecute="N" displayName="业务员申请" form="/flow/borrow!apply.action" layout="325,103,-1,-1" name="salesman_apply" performType="ANY" taskType="Major">
+<transition g="" name="transition3" offset="0,0" to="risk_audit"/>
+</task>
+<task assignee="risk_audit.operator" autoExecute="N" displayName="风控审核" layout="326,174,-1,-1" name="risk_audit" performType="ANY" taskType="Major">
+<transition g="" name="transition4" offset="0,0" to="decision2"/>
+</task>
+<decision displayName="decision2" expr="#result" layout="348,253,-1,-1" name="decision2">
+<transition displayName="同意" g="" name="risk_agree" offset="0,0" to="product_audit"/>
+<transition displayName="不同意" g="206,277;207,129" name="risk_disagree" offset="0,0" to="salesman_apply"/>
+</decision>
+<task assignee="product_audit.operator" autoExecute="Y" displayName="产品审核" layout="325,348,-1,-1" name="product_audit" performType="ANY" taskType="Major">
+<transition g="" name="transition2" offset="0,0" to="decision3"/>
+</task>
+<decision displayName="decision3" expr="#result" layout="348,425,-1,-1" name="decision3">
+<transition displayName="同意" g="" name="product_agree" offset="0,0" to="product_operation_audit"/>
+<transition displayName="不同意" g="496,452;493,126" name="product_disagree" offset="0,0" to="salesman_apply"/>
+</decision>
+<task assignee="product_operation_audit.operator" autoExecute="N" displayName="运营审核" layout="327,501,-1,-1" name="product_operation_audit" performType="ANY" taskType="Major">
+<transition g="" name="transition7" offset="0,0" to="decision1"/>
+</task>
+<decision displayName="decision1" expr="#result" layout="353,575,-1,-1" name="decision1">
+<transition displayName="同意" g="" name="product_operation_agree" offset="0,0" to="end1"/>
+<transition displayName="不同意" g="219,599;218,372" name="product_operation_disagree" offset="0,0" to="product_audit"/>
+</decision>
+<end displayName="end1" layout="452,576,-1,-1" name="end1"/>
+</process>

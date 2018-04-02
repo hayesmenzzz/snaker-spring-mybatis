@@ -3,34 +3,40 @@ package com.quzhigang.model;
 
 public class CityModel {
 	
-	private long id;
-	private long provinceId;
-	private String cityName;
-	private String description;
-	
-	public long getId() {
+	private Integer id;
+	private String name;
+	private Integer pid;
+	private String firstLetter;
+	private String pinyin;
+	public Integer getId() {
 		return id;
 	}
-	public void setId(long id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
-	public long getProvinceId() {
-		return provinceId;
+	public String getName() {
+		return name;
 	}
-	public void setProvinceId(long provinceId) {
-		this.provinceId = provinceId;
+	public void setName(String name) {
+		this.name = name;
 	}
-	public String getCityName() {
-		return cityName;
+	public Integer getPid() {
+		return pid;
 	}
-	public void setCityName(String cityName) {
-		this.cityName = cityName;
+	public void setPid(Integer pid) {
+		this.pid = pid;
 	}
-	public String getDescription() {
-		return description;
+	public String getFirst_letter() {
+		return firstLetter;
 	}
-	public void setDescription(String description) {
-		this.description = description;
+	public void setFirst_letter(String first_letter) {
+		this.firstLetter = first_letter;
+	}
+	public String getPinyin() {
+		return pinyin;
+	}
+	public void setPinyin(String pinyin) {
+		this.pinyin = pinyin;
 	}
 	
 	

@@ -15,7 +15,7 @@ import com.quzhigang.mapper.CityMapper;
 import com.quzhigang.model.CityModel;
 import com.quzhigang.service.CityService;
 
-@Service
+@Service("cityServiceImpl")
 public class CityServiceImpl implements CityService {
 	
 	@Autowired
@@ -80,9 +80,11 @@ public class CityServiceImpl implements CityService {
 		try{
 			
 			CityModel cityModel = new CityModel();
-			cityModel.setProvinceId(500);
-			cityModel.setCityName("上海500");
-			cityModel.setDescription("测试500");
+			cityModel.setId(110000);
+			cityModel.setName("北京市");
+			cityModel.setPid(0);
+			cityModel.setFirst_letter("B");
+			cityModel.setPinyin("Bei Jing");
 			cityMapper.insert(cityModel);
 			
 			for(int i=0; i<list.size(); i++){

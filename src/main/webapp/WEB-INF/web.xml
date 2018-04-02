@@ -18,7 +18,7 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
        <!--  配置spring.xml和spring-mybatis.xml这两个配置文件的位置，固定写法 -->
-        <param-value>classpath:spirng-config.xml,classpath:spring-mybatis.xml</param-value>
+        <param-value>classpath*:spirng-config.xml,classpath*:spring-mybatis.xml,classpath*:spring-snaker.xml</param-value>
     </context-param>
     
     
