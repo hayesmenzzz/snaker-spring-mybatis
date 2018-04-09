@@ -21,5 +21,7 @@
             </list>
         </property>
     </bean>
+    
+    <bean id = "car" class="com.simple.spring.beans.Car"></bean>
          
 </beans> 
